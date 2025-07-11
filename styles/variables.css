@@ -1,1 +1,14 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+    --black-color: #000;
+    --red-color: #FF0000;
+    --basic-font: 'Inter-Variable';
+    --accend-font: 'PressStart2P-Regular';
+    --background-color: #fff;
+    --background-image-gradient: repeating-linear-gradient(90deg, #d3d3d3, #d3d3d3 2px, transparent 2px, transparent 4px), 
+                                 repeating-linear-gradient(180deg, #d3d3d3, #d3d3d3 2px, transparent 2px, transparent 4px), 
+                                 repeating-linear-gradient(180deg, #e7e7e7 0.01%, #1a1a1a 100%);
+    --like-counter-color: var(--black-color);
+    --like-core-color: var(--black-color);   
+    --main-body-color: var(--black-color);                    
+}
