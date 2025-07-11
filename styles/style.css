@@ -144,8 +144,8 @@
   background: var(--background-color, #fff);
 }       
 
-.button-effects:focus{
- outline: none;
+.button-effects:focus {
+  outline: none;
 }
 
 .button-effects:focus-visible {
