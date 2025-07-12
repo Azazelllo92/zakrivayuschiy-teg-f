@@ -68,7 +68,7 @@
 
 .title-card {
   font-family: inherit;
-  font-variation-settings: "wght" var( --heading-font-weight), 700;
+  font-variation-settings: "wght" var(--heading-font-weight, 700);
   padding: 4px 10px; 
   font-size: 18px;
   
@@ -94,11 +94,11 @@
   font-weight: 400;
   text-transform: uppercase;
   top: 31px;
-  right: 25px;
+  right: 13px;
   color: #000;
   opacity: 0.5;
   mix-blend-mode: hard-light;
-  text-shadow: 1px #fff;
+  text-shadow: 0 0 1px #fff;
 }
 
 .card-content {
@@ -107,7 +107,7 @@
   margin: 25px;
   gap: 25px;
   font-family: inherit;
-  font-variation-settings: "wght" var(--text-font-weight);
+  font-variation-settings: "wght" var(--text-font-weight, 400);
   font-size:inherit;
 }
 
@@ -172,7 +172,7 @@
   box-shadow: 2px 2px #000;
 }
 
-.button-effects:focus-visible:not {
+.button-effects:focus-visible[not] {
   outline: none;
   box-shadow: none;
 }
@@ -213,7 +213,7 @@
   mix-blend-mode: difference;
 }
 
-.dialog:open {
+.dialog[open] {
   display: flex;
   flex-direction: column;
   padding: 28px;
