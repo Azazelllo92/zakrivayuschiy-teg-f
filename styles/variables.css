@@ -3,7 +3,9 @@
     --black-color: #000;
     --red-color: #FF0000;
     --basic-font: 'Inter-Variable';
-    --accend-font: 'PressStart2P-Regular';
+    --accend-font: 'PressStart2P';
+    --heading-font-weight: 700;
+    --text-font-weight: 400;
     --background-color: #fff;
     --background-image-gradient: repeating-linear-gradient(90deg, #d3d3d3, #d3d3d3 2px, transparent 2px, transparent 4px), 
                                  repeating-linear-gradient(180deg, #d3d3d3, #d3d3d3 2px, transparent 2px, transparent 4px), 
