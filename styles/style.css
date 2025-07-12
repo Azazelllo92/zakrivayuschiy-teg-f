@@ -75,6 +75,7 @@
 }
 
 .image-container {
+  display: block;
   position: relative;
   display: block;
   border-block: 2px solid #000;
@@ -94,7 +95,7 @@
   font-weight: 400;
   text-transform: uppercase;
   top: 31px;
-  right: 13px;
+  right: 25px;
   color: #000;
   opacity: 0.5;
   mix-blend-mode: hard-light;
@@ -284,10 +285,9 @@
   filter: blur(5px);
 }
 
-@supports (-webkit-text-stroke: 1px #fff) or (text-stroke: 1px #fff) {
+@supports (-webkit-text-stroke: 1px #fff) {
   .water-mark {
     -webkit-text-stroke: 1px #fff;
-    text-stroke: 1px #fff;
     text-shadow: none;
   }
 } 
@@ -304,4 +304,9 @@
     block-size: 28px;
     object-fit: contain;
   }
+
+  .water-mark {
+    right: 13px;
+  }
 }
+
